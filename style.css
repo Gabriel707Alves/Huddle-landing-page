@@ -2,9 +2,31 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: var(--open-sans);
 }
 
 :root{
     --Purple_700: hsl(257, 40%, 49%);
     --Magenta_400: hsl(300, 69%, 71%);
+
+    --poppins: 'Poppins', sans-serif;
+    --open-sans: 'Open Sans', sans-serif;
+}
+
+/* Fundo */
+body{
+    background-image: url(images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--Purple_700);
+}
+
+
+/* Header */
+header{
+    padding: 35px 30px;
+}
+
+#logo{
+    width: 47%;
 }
