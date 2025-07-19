@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --Purple_700: hsl(257, 40%, 49%);
+    --Magenta_400: hsl(300, 69%, 71%);
+}
